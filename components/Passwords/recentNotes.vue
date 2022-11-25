@@ -12,9 +12,9 @@
         pb-4
         mb-5
       " style="border-bottom: 2px solid #f5f5f5 !important">
-          <h2 class="fw-bold mb-0">Related Articles</h2>
+          <h2 class="fw-bold mb-0">Recent Notes</h2>
           <h6 class="mb-0">
-            <a href="#!">See All Articles <i class="fas fa-angle-right fa-xs ms-1"></i></a>
+            <a href="/notes">See All Notes <i class="fas fa-angle-right fa-xs ms-1"></i></a>
           </h6>
         </div>
         <div class="row gx-md-5">

@@ -6,7 +6,7 @@
       <!--Section: Design Block-->
       <section>
 
-        <h3 class="text-center">All Passwords</h3>
+        <h3 class="text-center">My Passwords</h3>
 
         <div class="lightbox">
           <div class="row">
@@ -72,11 +72,11 @@
 </template>
 
 <script>
-//import categories from '~/components/Articles/categories'
-
   export default {
-    //components: { categories },
-    name: 'IndexPage'
+
+    head: {
+      title: 'My Passwords'
+    }
   }
 
 </script>

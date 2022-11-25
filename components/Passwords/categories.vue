@@ -5,7 +5,7 @@
 
 <!--Section: Design Block-->
 <section class="mb-10">
-  <p class="fs-1 fw-bold text-center mb-5">Read by the category</p>
+  <p class="fs-1 fw-bold text-center mb-5">Password by the category</p>
   <div class="row gx-xl-5">
     <div class="col-md-6 col-xl-3 mb-4">
       <div class="bg-image ripple rounded-5" data-mdb-ripple-color="light">

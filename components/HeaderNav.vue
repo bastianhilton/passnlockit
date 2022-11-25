@@ -14,10 +14,10 @@
         <!-- Collapsible wrapper -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!-- Navbar brand -->
-          <a class="navbar-brand mt-2 mt-lg-0" href="#">
-            <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="15" alt="MDB Logo"
-              loading="lazy" />
-          </a>
+          <a class="navbar-brand" href="/">
+          <div class="metroname" style="color:yellow;">Pass</div>
+          <div class="metroname" style="color:powderblue;">nLockit</div>
+        </a>
         </div>
         <!-- Collapsible wrapper -->
         <!-- Search form -->
@@ -29,19 +29,29 @@
           <!-- Icon -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-right: 15px;">
             <div class="dropdown">
-              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2"
+              <button class="btn btn-warning dropdown-toggle" type="button" id="dropdownMenu2"
                 data-mdb-toggle="dropdown" aria-expanded="false">
-                Resources
+                Menu
               </button>
               <ul class="dropdown-menu createDrop" aria-labelledby="dropdownMenu2">
                 <li>
-                  <a class="dropdown-item" href="/article/">List of Articles</a>
+                  <a class="dropdown-item" href="/">Passwords</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/qna">Questions and Answers</a>
+                  <a class="dropdown-item" href="/notes">Notes</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/resources">Websites</a>
+                  <a class="dropdown-item" href="/categories">Categories</a>
+                </li>
+                <hr />
+                <li>
+                  <a class="dropdown-item" href="/security">Security Dashboard</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/sites">Sites</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/help">Help</a>
                 </li>
               </ul>
             </div>
@@ -49,15 +59,15 @@
           <!-- Create -->
           <div class="dropdown">
             <a class="text-reset me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdownMenuLink" role="button"
-              data-mdb-toggle="dropdown" aria-expanded="false">
-              <i class="fas fa-edit"></i>
+              data-mdb-toggle="dropdown" aria-expanded="false" style="color: white !important;">
+              Create
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
               <li>
-                <a class="dropdown-item" href="/create/article">Create Article</a>
+                <a class="dropdown-item" href="/create/password">Create Password</a>
               </li>
               <li>
-                <a class="dropdown-item" href="/create/question">Create Question</a>
+                <a class="dropdown-item" href="/create/note">Create Note</a>
               </li>
             </ul>
           </div>
@@ -73,10 +83,10 @@
                 <a class="dropdown-item" href="/user/">My profile</a>
               </li>
               <li>
-                <a class="dropdown-item" href="/user/lists">My Lists</a>
+                <a class="dropdown-item" href="/user/my-passwords">My Passwords</a>
               </li>
               <li>
-                <a class="dropdown-item" href="/user/settings">Settings</a>
+                <a class="dropdown-item" href="/user/my-notes">My Notes</a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">Logout</a>
